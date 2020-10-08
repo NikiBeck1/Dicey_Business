@@ -138,7 +138,7 @@ document.addEventListener('DOMContentLoaded', function() {
     sumButton.addEventListener("click", function() {
         // Using .reduce function
         
-        sum = arr.reduce((acc, val) => ({ value: acc.value + val.value}));
+        let sum = arr.reduce((acc, val) => ({ value: acc.value + val.value}));
         alert(sum.value);
        
         // This is another way to calculate the sum with a for loop
