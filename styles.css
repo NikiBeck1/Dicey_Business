@@ -1,0 +1,31 @@
+body {
+    padding: 3em;
+    background-color: gold;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.newDice {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+
+.sum-button {
+    cursor: pointer;
+}
+
+.reRoll-button {
+    cursor: pointer;
+}
+
+.main-button {
+    cursor: pointer;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
