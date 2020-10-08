@@ -112,6 +112,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // Double click to remove a dice from screen
             this.div.addEventListener("dblclick", () => {
                 container.removeChild(this.div);
+                arr.splice(arr.indexOf(this), 1);
             })
 
         }
